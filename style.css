@@ -29,8 +29,16 @@ ul{
 }
 
 .gallery-classification{
-    font-family: "Ubuntu";
+    font-family: "Ubuntu",sans-serif;
     font-weight: 300;
     line-height: 1.1;
     color: var(--classification-title);
+}
+.gallery-title{
+    font-weight: 400;
+    font-size: 30px;
+}
+.button{
+    border-color: var(--text-color);
+    background-color: transparent;
 }
