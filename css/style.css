@@ -1,4 +1,3 @@
-
 :root{
     --text-color: #626262;
     --link-color:#7D7D7D;
@@ -6,6 +5,7 @@
     --axent-color:#03A9F4;
     --base-text-size: 14px;
 }
+
 body{
     color: var(--text-color, grey);
     font-size: var(--base-text-size, 14px);
