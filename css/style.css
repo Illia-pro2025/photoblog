@@ -1,55 +1,91 @@
-:root{
-    --text-color: #626262;
-    --link-color:#7D7D7D;
-    --classification-title: #B4AD9E;
-    --axent-color:#03A9F4;
-    --base-text-size: 14px;
+:root {
+  --text-color: #626262;
+  --link-color: #7d7d7d;
+  --classification-title: #b4ad9e;
+  --axent-color: #03a9f4;
+  --base-text-size: 14px;
 }
 
-body{
-    color: var(--text-color, grey);
-    font-size: var(--base-text-size, 14px);
-    font-family: "Playfair Display",serif; 
-    line-height: 1.3; 
-    font-weight: 400;
+body {
+  color: var(--text-color, grey);
+  font-size: var(--base-text-size, 14px);
+  font-family: "Playfair Display", serif;
+  line-height: 1.3;
+  font-weight: 400;
+}
+.container {
+  width: 936px;
+  padding: 0 15px;
+  margin: 0 auto;
 
+  outline: solid red;
 }
-.container{
-    width: 936px;
-    padding: 0 15px;
-    margin: 0 auto;
-
-    outline: solid red;
+a {
+  text-decoration: none;
 }
-a{  
-    text-decoration: none;
+ul {
+  list-style: none;
 }
-ul{
-    list-style: none;
+.header{
+    margin-top: 71px;
+    margin-bottom: 92px;
 }
-.navigation-link{
-    color: var(--link-color);
+.invisible-title{
+    display: none;
+}
+.gallery-image{
+    margin-bottom:62px ;
+}
+.navigation-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.navigation-item {
+  margin-right: 100px;
+}
+.navigation-item:last-child {
+  margin-right: 0;
+}
+.navigation-link {
+  color: var(--link-color);
 }
 .navigation-link:hover,
-.navigation-link:focus{
-    color: var(--axent-color);
+.navigation-link:focus {
+  color: var(--axent-color);
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery-item {
+  width: 420px;
+  margin-bottom: 126px;
+  margin-right: 66px;
+}
+.gallery-item:nth-child(2n) {
+  margin-right: 0px;
+}
+.gallery-classification {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  line-height: 1.1;
+  color: var(--classification-title);
+}
+.gallery-title {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.button {
+  border-width: 1px;
+  border-color: var(--text-color);
+  background-color: transparent;
+  line-height: 1.3;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  display: block;
+  margin: 0 auto 66px auto;
+  padding: 20px 48px;
 }
 
-.gallery-classification{
-    font-family: "Ubuntu",sans-serif;
-    font-weight: 300;
-    line-height: 1.1;
-    color: var(--classification-title);
-}
-.gallery-title{
-    font-weight: 400;
-    font-size: 30px;
-}
-.button{
-    border-width: 1px;
-    border-color: var(--text-color);
-    background-color: transparent;
-    line-height: 1.3;
-    font-size: 14px;
-    font-family:"Playfair Display",serif; 
-}
