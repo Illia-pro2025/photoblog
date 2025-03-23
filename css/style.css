@@ -57,6 +57,7 @@ ul {
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  
 }
 .gallery-item {
   width: 420px;
