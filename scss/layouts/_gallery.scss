@@ -1,0 +1,36 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .gallery-item {
+    width: 420px;
+    margin-bottom: 126px;
+    margin-right: 66px;
+  }
+  .gallery-item:nth-child(2n) {
+    margin-right: 0px;
+  }
+  .gallery-classification {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    line-height: 1.1;
+    color: var(--classification-title);
+  }
+  .gallery-title {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  .button {
+    border-width: 1px;
+    border-color: var(--text-color);
+    background-color: transparent;
+    line-height: 1.3;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    display: block;
+    margin: 0 auto 66px auto;
+    padding: 20px 48px;
+  }
+  

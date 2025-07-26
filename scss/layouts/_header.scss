@@ -1,0 +1,22 @@
+.header{
+    margin-top: 71px;
+    margin-bottom: 92px;
+}
+.navigation-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .navigation-item {
+    margin-right: 100px;
+  }
+  .navigation-item:last-child {
+    margin-right: 0;
+  }
+  .navigation-link {
+    color: var(--link-color);
+  }
+  .navigation-link:hover,
+  .navigation-link:focus {
+    color: var(--axent-color);
+  }
