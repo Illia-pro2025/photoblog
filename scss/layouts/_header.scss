@@ -4,11 +4,17 @@
 }
 .navigation-list {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
+      @media (min-width:936px) {
+   flex-direction: row;
     justify-content: center;
+    }
   }
   .navigation-item {
-    margin-right: 100px;
+     @media (min-width:936px) {
+margin-right: 100px;
+    }
   }
   .navigation-item:last-child {
     margin-right: 0;

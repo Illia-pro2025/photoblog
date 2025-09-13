@@ -8,6 +8,11 @@ a{
 ul{
     list-style: none;
 }
+img{
+    display:inline-block ;
+    width: 100%;
+    height: auto;
+}
 body {
     color: var(--text-color, grey);
     font-size: var(--base-text-size, 14px);

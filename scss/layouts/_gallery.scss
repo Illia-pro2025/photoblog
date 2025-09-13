@@ -1,12 +1,22 @@
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    
   }
   .gallery-item {
-    width: 420px;
+    width: 100%;
     margin-bottom: 126px;
-    margin-right: 66px;
+     @media (min-width:936px) {
+     margin-right: 66px;
+     width: 420px;
+    }
+    
+  }
+  .gallery-image{
+   
+     @media (min-width:936px) {
+    width: 420px;
+    }
+    
   }
   .gallery-item:nth-child(2n) {
     margin-right: 0px;
@@ -22,6 +32,7 @@
     font-size: 30px;
     margin-bottom: 40px;
   }
+
   .button {
     border-width: 1px;
     border-color: var(--text-color);
